@@ -93,7 +93,7 @@ const Resume = () => {
         title: "Smart India Hackathon",
         company: "LPU",
         period: "August, 2024",
-        type: "EXTRACURRICULAR",
+        type: "HACKTHON",
         description: [
           "Built an intuitive platform for farmers to list and showcase their products with images",
           "Differentiated accounts of farmers and consumers providing them different functionality",
@@ -105,7 +105,7 @@ const Resume = () => {
         title: "IOT Devices",
         company: "LPU",
         period: "March, 2023",
-        type: "EXTRACURRICULAR",
+        type: "WORKSHOP",
         description: [
           "Designed an automated highway lighting system for efficient energy usage",
           "Implemented Arduino to control and manage the lighting mechanism",
