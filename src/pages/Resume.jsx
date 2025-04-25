@@ -377,7 +377,7 @@ const Resume = () => {
             <TabButton id="education" label="Education" active={activeTab === "education"} />
             <TabButton id="skills" label="Skills" active={activeTab === "skills"} />
             <TabButton id="projects" label="Projects" active={activeTab === "projects"} />
-            <TabButton id="experience" label="Experience" active={activeTab === "experience"} />
+            <TabButton id="experience" label="Extracurricular" active={activeTab === "experience"} />
             <TabButton id="certificates" label="Certificates" active={activeTab === "certificates"} />
           </div>
 
