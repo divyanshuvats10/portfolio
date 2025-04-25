@@ -26,7 +26,7 @@ const Certifications = () => {
     {
       title: "HTML, CSS, and Javascript for Web Developers",
       issuer: "Coursera",
-      date: "March 2024",
+      date: "May 2024",
       description: "Full-stack web development fundamentals focusing on responsive design, modern CSS techniques, and dynamic DOM manipulation with JavaScript.",
       skills: ["HTML5", "CSS3", "JavaScript", "Responsive Design"],
       link: "https://www.coursera.org/account/accomplishments/verify/JC3Z37ALM5YQ",
@@ -63,7 +63,7 @@ const Certifications = () => {
               onMouseLeave={() => setHoveredCert(null)}
             >
               <div
-                className="relative w-full h-96"
+                className="relative w-full h-106"
                 style={{
                   transformStyle: "preserve-3d",
                   transition: "transform 0.8s",
