@@ -156,7 +156,14 @@ const Projects = () => {
                 
                 {/* Action buttons */}
                 <div className="flex gap-4">
-                  
+                <a
+                    href={project.demoLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex-1 text-center bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white px-4 py-2 rounded-lg text-sm transition"
+                  >
+                    Live Demo
+                  </a>
                   <a
                     href={project.codeLink}
                     target="_blank"
