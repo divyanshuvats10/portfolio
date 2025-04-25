@@ -14,13 +14,12 @@ const Home = () => {
 
   return (
     <div className="min-h-screen bg-slate-900 text-white overflow-hidden relative">
-      {/* Animated background elements */}
+      {/* Simplified background elements */}
       <br></br>
       <br></br>
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute top-0 left-0 w-96 h-96 bg-purple-600 opacity-10 rounded-full blur-3xl -z-10 animate-pulse"></div>
-        <div className="absolute bottom-0 right-0 w-96 h-96 bg-blue-500 opacity-10 rounded-full blur-3xl -z-10 animate-pulse"></div>
-        <div className="absolute top-1/2 left-1/2 w-64 h-64 bg-indigo-600 opacity-5 rounded-full blur-3xl -z-10 animate-pulse"></div>
+        <div className="absolute top-0 left-0 w-96 h-96 bg-purple-600 opacity-10 rounded-full blur-3xl -z-10"></div>
+        <div className="absolute bottom-0 right-0 w-96 h-96 bg-blue-500 opacity-10 rounded-full blur-3xl -z-10"></div>
         
         {/* Grid pattern overlay */}
         <div className="absolute inset-0 bg-grid-pattern opacity-5"></div>
@@ -29,10 +28,9 @@ const Home = () => {
       {/* Main content */}
       <div className="container mx-auto px-4 py-16 flex flex-col items-center justify-center min-h-screen relative z-10">
         <div className={`transition-all duration-1000 ${isLoaded ? 'opacity-100 transform-none' : 'opacity-0 translate-y-8'}`}>
-          {/* Profile image with animated glow */}
-          <div className="relative mb-10 group">
-            <div className="absolute inset-0 rounded-full bg-gradient-to-r from-purple-500 to-blue-500 blur-lg opacity-75 group-hover:opacity-100 transition-opacity duration-300 animate-pulse"></div>
-            <div className="w-48 h-48 mx-auto rounded-full border-4 border-indigo-500 overflow-hidden relative z-10 hover:scale-105 transition-transform duration-300">
+          {/* Profile image with sleek, minimal design */}
+          <div className="mb-10">
+            <div className="w-48 h-48 mx-auto rounded-full overflow-hidden relative z-10 hover:scale-105 transition-transform duration-300 shadow-lg border border-indigo-400/30">
               <img
                 src={profileImage}
                 alt="Profile"
