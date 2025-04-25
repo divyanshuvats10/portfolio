@@ -5,6 +5,19 @@ const Achievements = () => {
   
   const achievements = [
     {
+      title: "50-Day Streak on LeetCode",
+      description: "Maintained a 50-day daily problem-solving streak on LeetCode, showcasing consistency and dedication.",
+      date: "April 2025",
+      icon: "🔥",
+    },
+    {
+      title: "150 LeetCode Questions Solved",
+      description: "Solved 150 coding questions on LeetCode in April 2025, strengthening problem-solving and algorithmic thinking.",
+      date: "April 2025",
+      icon: "💡",
+    },    
+
+    {
       title: "Placed in Deans List - Lovely Professional University",
       description: "Achieved academic excellence and earned a place on the Dean’s List, recognizing the top 10% of students.",
       date: "August 2024",
@@ -15,7 +28,9 @@ const Achievements = () => {
       description: "Completed all modules and challenges in the GFG Complete Interview Preparation course with distinction.",
       date: "July 2024",
       icon: "🌟",
-    }
+    },
+    
+
   ];
 
   useEffect(() => {
