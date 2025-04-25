@@ -232,7 +232,7 @@ const Contact = () => {
                 <div className="mt-8 pt-6 border-t border-slate-700">
                   <h4 className="text-sm font-medium text-gray-400 mb-4">Follow Me</h4>
                   <div className="flex gap-3">
-                    {["twitter", "instagram", "dribbble", "behance"].map((social, index) => (
+                    {["twitter", "instagram"].map((social, index) => (
                       <a 
                         key={index}
                         href="#" 
