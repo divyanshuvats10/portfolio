@@ -49,7 +49,7 @@ const Resume = () => {
           "Structured nested data in MongoDB for efficient hierarchy and complaint tracking"
         ],
         tech: "HTML, CSS, JavaScript, ReactJs, NodeJs, MongoDB",
-        link: "Github"
+        link: "https://github.com/divyanshuvats10/ClassAid"
       },
       {
         title: "Expenz",
@@ -61,7 +61,7 @@ const Resume = () => {
           "Integrated user authentication and secure session management to protect financial data and personalize user experience"
         ],
         tech: "HTML, CSS, JavaScript, ReactJs, NodeJs, MongoDB, TailwindCS",
-        link: "Github"
+        link: "https://github.com/divyanshuvats10/Expenz"
       },
       {
         title: "YouTub",
@@ -73,7 +73,7 @@ const Resume = () => {
           "Implemented responsive design to ensure optimal viewing across devices and screen sizes"
         ],
         tech: "HTML, CSS, JavaScript, ReactJS, NodeJS",
-        link: "Github"
+        link: "https://github.com/divyanshuvats10/Yt_backend"
       }
     ],
     experience: [
@@ -223,10 +223,10 @@ const Resume = () => {
                   </div>
                   {project.link && (
                     <a 
-                      href="#" 
+                      href={project.link} 
                       className="text-indigo-400 hover:text-indigo-300 font-medium transition-colors"
                     >
-                      {project.link} ↗
+                      GitHub ↗
                     </a>
                   )}
                 </div>

@@ -8,19 +8,6 @@ const Projects = () => {
   // Enhanced project data with categories and featured flag
   const projects = [
     {
-      title: "ClassAid",
-      description:
-        "A robust web application tailored for college infrastructure management. This system enables students to register complaints related to classroom amenities such as ACs, lights, and furniture. Admins can assign tasks to workers, track resolutions, and update statuses in real-time.",
-      longDescription: 
-        "The app uses role-based access for students, workers, and admins, with clean navigation through blocks, floors, and rooms. Built with scalability in mind, it offers an intuitive interface and a complete complaint history log for transparency and accountability.",
-      technologies: ["React", "Node.js", "MongoDB", "Tailwind CSS"],
-      demoLink: "#",
-      codeLink: "https://github.com/divyanshuvats10/ClassAid",
-      screenshot: "/images/complaint-management.png",
-      categories: ["Full Stack", "Web App"],
-      featured: true
-    },
-    {
       title: "Expenz",
       description:
         "A full-stack finance management app that empowers users to monitor and analyze their spending. With user authentication, categorized transactions, and an interactive dashboard, it offers a complete overview of income versus expenses.",
@@ -45,6 +32,19 @@ const Projects = () => {
       screenshot: "/images/youtube-project.png",
       categories: ["Frontend", "API Integration"],
       featured: false
+    },
+    {
+      title: "ClassAid",
+      description:
+        "A robust web application tailored for college infrastructure management. This system enables students to register complaints related to classroom amenities such as ACs, lights, and furniture. Admins can assign tasks to workers, track resolutions, and update statuses in real-time.",
+      longDescription: 
+        "The app uses role-based access for students, workers, and admins, with clean navigation through blocks, floors, and rooms. Built with scalability in mind, it offers an intuitive interface and a complete complaint history log for transparency and accountability.",
+      technologies: ["React", "Node.js", "MongoDB", "Tailwind CSS"],
+      demoLink: "#",
+      codeLink: "https://github.com/divyanshuvats10/ClassAid",
+      screenshot: "/images/complaint-management.png",
+      categories: ["Full Stack", "Web App"],
+      featured: true
     },
   ];
 
@@ -156,14 +156,7 @@ const Projects = () => {
                 
                 {/* Action buttons */}
                 <div className="flex gap-4">
-                  <a
-                    href={project.demoLink}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex-1 text-center bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white px-4 py-2 rounded-lg text-sm transition"
-                  >
-                    Live Demo
-                  </a>
+                  
                   <a
                     href={project.codeLink}
                     target="_blank"
